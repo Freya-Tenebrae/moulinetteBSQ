@@ -10,4 +10,6 @@
 #                                                                              #
 # **************************************************************************** #
 
-pour executer cette moulinette, il vous suffit de clonner ce repo qu nivequ de l'executqble qpeller "bsq", et de lqncer le fichier shelle dans le git venqnt d'etre clonner ^^.
+pour executer cette moulinette, il vous suffit de clonner ce repo au nivequ de l'executable apeller "bsq", et de lqncer le fichier shelle dans le git venant d'etre clonner ^^.
+
+(pour tester la sortie standard il vous suffit de decommenter les lignes du fichier shell)
