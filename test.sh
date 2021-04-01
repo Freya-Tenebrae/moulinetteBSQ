@@ -26,18 +26,18 @@ for file in `ls -1 tables/correctfile`; do
 done
 echo "\n---------------------------------------------"
 
-#echo "test Wrong file --> standard output"
-#for file in `ls -1 tables/badfile`; do
-#echo "diff -- $file"
-#    cat tables/badfile/$file | ./bsq > tablesToFill/badfile/$file
-#    diff tablesToFill/badfile/$file tablesResolved/badfile/$file
-#done
-#echo "\n---------------------------------------------"
+echo "test Wrong file --> standard output"
+for file in `ls -1 tables/badfile`; do
+echo "diff -- $file"
+    cat tables/badfile/$file | ./bsq > tablesToFill/badfile/$file
+    diff tablesToFill/badfile/$file tablesResolved/badfile/$file
+done
+echo "\n---------------------------------------------"
 
-#echo "test Wrong file --> standard output"
-#for file in `ls -1 tables/correctfile`; do
-#    echo "diff -- $file"
-#    cat tables/correctfile/$file | ./bsq > tablesToFill/correctfile/$file
-#    diff tablesToFill/correctfile/$file tablesResolved/correctfile/$file
-#done
-#echo "\n---------------------------------------------"
+echo "test Wrong file --> standard output"
+for file in `ls -1 tables/correctfile`; do
+    echo "diff -- $file"
+    cat tables/correctfile/$file | ./bsq > tablesToFill/correctfile/$file
+    diff tablesToFill/correctfile/$file tablesResolved/correctfile/$file
+done
+echo "\n---------------------------------------------"
