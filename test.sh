@@ -23,8 +23,8 @@ for file in `ls -1 tables/correctfile`; do
     echo "diff -- $file"
     ../bsq tables/correctfile/$file > tablesToFill/correctfile/$file
     diff tablesToFill/correctfile/$file tablesResolved/correctfile/$file
-#done
-#echo "\n---------------------------------------------"
+done
+echo "\n---------------------------------------------"
 
 #echo "test Wrong file --> standard output"
 #for file in `ls -1 tables/badfile`; do
